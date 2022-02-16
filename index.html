@@ -32,6 +32,33 @@
 <body>
 <!-- hero/jumbotron-->
 <section>
+    <div>
+        <h3>Get Started Today</h3>
+        <p>Fill out this form and one of our trainers will schedule a consult</p>
+    <!-- Add form element-->
+    <form>
+        <label for="name">Enter Full Name:</label>
+        <!--for is attribute to id; type is type of input; placeholder is a hint to what to enter; name is what identifies the element-->
+        <input type="text" placeholder="Your name" name="name" id="name" />
+        <label for="email">Enter Email Address:</label>
+        <input type="email" placeholder="Your email address" name="email" id="email" />
+        <label for="phone">Enter Phone Number:</label>
+        <input type="tel" placeholder="Your Phone number" name="phone" id="phone" />
+        <p>Have you worked out with a personal trianer before?
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trainer-yes">Yes</label>
+            <input type="radio" name="trainer-confirm" id="trainer-no" />
+            <label for="trainer-no">No</label>
+        </p>
+        <p>
+            <label for="age-yes">I ackowledge that I am at least 18 years of age</label>
+            <input type="checkbox" name="age-confirm" id="age-yes" />
+        </p>
+        <button type="submit">
+            get running!
+        </button>
+    </form>
+    </div>
 </section>
 
 <!-- "What we do" section -->
