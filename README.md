@@ -28,3 +28,5 @@ Coming Soon!
 
 I appreciate University of Toronto School of Continuing Studies-Coding Bootcamp for providing me with the training and resources to succeed in this project!
 
+### ©️2019 Run Buddy, Inc 
+
